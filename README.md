@@ -1,4 +1,4 @@
-An Uncertainty Region Modeling and Calibration Network for Power Line Inspection
+# An Uncertainty Region Modeling and Calibration Network for Power Line Inspection
 
 Abstract：Accurate power line detection is critical for un
 manned aerial vehicle (UAV)-based inspection systems. However,
@@ -55,7 +55,10 @@ Notice:In the original VITLD dataset, every four images correspond to one sliced
 
 For the related training and testing code, please refer to: Multimodal-FFM-TLD: https://github.com/hyeyeon08/Multimodal-FFM-TLD/tree/main
 
+Implementation Details：
+The network was trained using the PyTorch 1.7.1 framework. The weights of all sub-networks were jointly optimized with the Adam optimizer, where the first and second momentum terms were set to 0.5 and 0.999, respectively. During training, the batch size was configured to 8, and the maximum number of iterations was 500. The initial learning rate was set to 1e-4, kept constant for the first 100 epochs, and then gradually decayed to zero in the subsequent epochs.
 
+The relevant corrected images are shown below:：
 ![image](https://github.com/xmaildottor-spec/An-Uncertainty-Region-Modeling-and-Calibration-Network/blob/main/img.png)
 
 
