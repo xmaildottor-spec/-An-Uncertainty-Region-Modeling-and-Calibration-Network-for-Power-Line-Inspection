@@ -18,7 +18,6 @@ In the original VITLD dataset, every four images correspond to one sliced sample
 ## Acknowledgement:
 Thanks 【[Multimodal-FFM-TLD](https://github.com/hyeyeon08/Multimodal-FFM-TLD)】 for providing the relevant training and testing data as well as the associated code.
 
-The relevant corrected images are shown below:：
 ![image](https://github.com/xmaildottor-spec/An-Uncertainty-Region-Modeling-and-Calibration-Network/blob/main/img.png)
 
 
